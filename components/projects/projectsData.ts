@@ -24,7 +24,7 @@ export const projects: Project[] = [
     title: "AI Chatbot",
     description:
       "Conversational AI assistant with LLM integration.",
-    image: "/projects/project2.jpg",
+    image: "/projects/project2.png",
     tech: ["Next.js", "OpenAI", "TypeScript"],
     github: "#",
     demo: "#",
@@ -34,7 +34,7 @@ export const projects: Project[] = [
     title: "Student Management System",
     description:
       "Full-stack portal for managing students and faculty.",
-    image: "/projects/project3.jpg",
+    image: "/projects/project3.png",
     tech: ["React", "Node.js", "MongoDB"],
     github: "#",
     demo: "#",
@@ -59,14 +59,14 @@ export const projects: Project[] = [
     github: "#",
     demo: "#",
   },
-  {
-    id: 6,
-    title: "Weather Dashboard",
-    description:
-      "Real-time weather dashboard using public APIs.",
-    image: "/projects/project6.jpg",
-    tech: ["React", "API", "Chart.js"],
-    github: "#",
-    demo: "#",
-  },
+  // {
+  //   id: 6,
+  //   title: "Weather Dashboard",
+  //   description:
+  //     "Real-time weather dashboard using public APIs.",
+  //   image: "/projects/project6.jpg",
+  //   tech: ["React", "API", "Chart.js"],
+  //   github: "#",
+  //   demo: "#",
+  // },
 ];
