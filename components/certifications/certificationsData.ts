@@ -24,14 +24,14 @@ export const certifications: Certification[] = [
     credentialId: "119854-27500765-1016",
     verifyUrl: "certificate_img\TCS ion uttam.pdf",
   },
-  // {
-  //   id: 3,
-  //   title: "Python for Data Science",
-  //   issuer: "IBM",
-  //   issued: "2025",
-  //   credentialId: "IBM-DS-003",
-  //   verifyUrl: "#",
-  // },
+  {
+    id: 3,
+    title: "Oracle Certified Foundations Associate — Agentic AI",
+    issuer: "Oracle",
+    issued: "August 2026",
+    credentialId: "330741768AAI26OFA",
+    verifyUrl: "https://www.linkedin.com/feed/update/urn:li:activity:7495832722452611072/",
+  },
   // {
   //   id: 4,
   //   title: "SQL (Advanced)",

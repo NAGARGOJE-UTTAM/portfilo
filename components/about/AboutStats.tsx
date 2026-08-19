@@ -11,7 +11,7 @@ import {
 const stats = [
   {
     icon: FolderGit2,
-    value: "10+",
+    value: "5+",
     label: "Projects Built",
     color: "from-violet-500 to-fuchsia-500",
   },
