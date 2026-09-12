@@ -58,7 +58,7 @@ export default function AboutProfile() {
 
         {/* Profile Image */}
         <Image
-          src="/images/profile.png"
+          src="/images/profile.jpg"
           alt="Profile"
           width={300}
           height={420}

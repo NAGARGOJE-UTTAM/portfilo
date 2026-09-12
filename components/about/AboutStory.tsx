@@ -33,11 +33,14 @@ export default function AboutStory() {
         Computer Vision, and AI Engineering while constantly improving my
         problem-solving skills through projects and hands-on practice.
       </p>
-
-      <button className="mt-8 inline-flex items-center gap-3 rounded-xl bg-gradient-to-r from-violet-600 to-fuchsia-600 px-6 py-3 font-semibold transition hover:scale-105">
-        <Download size={18} />
-        Download Resume
-      </button>
+      <a
+  href="/resume/uttam_resume.pdf"
+  download
+  className="mt-8 inline-flex items-center gap-3 rounded-xl bg-gradient-to-r from-violet-600 to-fuchsia-600 px-6 py-3 font-semibold transition hover:scale-105"
+>
+  <Download size={18} />
+  Download Resume
+</a>
     </motion.div>
   );
 }

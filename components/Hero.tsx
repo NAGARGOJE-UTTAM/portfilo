@@ -89,7 +89,7 @@ export default function Hero() {
             <div className="mt-10 flex gap-4">
 
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/NAGARGOJE-UTTAM"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex h-12 w-12 items-center justify-center rounded-full border border-zinc-700 bg-zinc-900 hover:bg-gray-800 transition"
@@ -98,7 +98,7 @@ export default function Hero() {
               </a>
 
               <a
-                href="https://linkedin.com/in/yourusername"
+                href="https://www.linkedin.com/in/nagargoje-uttam-95b710302/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex h-12 w-12 items-center justify-center rounded-full border border-zinc-700 bg-zinc-900 hover:bg-blue-600 transition"
@@ -107,7 +107,7 @@ export default function Hero() {
               </a>
 
               <a
-                href="https://instagram.com/yourusername"
+                href="https://www.instagram.com/bobby.x684/?hl=en"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex h-12 w-12 items-center justify-center rounded-full border border-zinc-700 bg-zinc-900 hover:bg-pink-600 transition"
@@ -116,7 +116,7 @@ export default function Hero() {
               </a>
 
               <a
-                href="mailto:your@email.com"
+                href="mailto:nagargojeuttam143@gmail.com"
                 className="flex h-12 w-12 items-center justify-center rounded-full border border-zinc-700 bg-zinc-900 hover:bg-red-600 transition"
               >
                 <Mail className="text-white h-5 w-5" />
@@ -191,10 +191,10 @@ export default function Hero() {
               }}
             >
               <Image
-                src="/images/profile.png"
+                src="/images/gptprofile.png"
                 alt="Profile"
-                width={500}
-                height={650}
+                width={450}
+                height={150}
                 priority
                 className="
                 rounded-3xl

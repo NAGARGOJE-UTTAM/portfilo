@@ -16,7 +16,7 @@ export const projects: Project[] = [
       "Complete implementation of Mask R-CNN using TensorFlow and Keras.",
     image: "/projects/project1.jpg",
     tech: ["Python", "TensorFlow", "Keras"],
-    github: "#",
+    github: "https://github.com/NAGARGOJE-UTTAM/mask-RCNN-from-scratch",
     demo: "#",
   },
   {
@@ -26,7 +26,7 @@ export const projects: Project[] = [
       "Conversational AI assistant with LLM integration.",
     image: "/projects/project2.png",
     tech: ["Next.js", "OpenAI", "TypeScript"],
-    github: "#",
+    github: "https://github.com/NAGARGOJE-UTTAM/IAREBot",
     demo: "#",
   },
   {
@@ -61,7 +61,7 @@ export const projects: Project[] = [
   },
   // {
   //   id: 6,
-  //   title: "Weather Dashboard",
+  //   title: "westwise AI",
   //   description:
   //     "Real-time weather dashboard using public APIs.",
   //   image: "/projects/project6.jpg",

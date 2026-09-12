@@ -25,7 +25,7 @@ export default function FeaturedProject() {
         {/* Image */}
         <div className="relative overflow-hidden">
           <Image
-            src="/projects/project1.jpg"
+            src="/projects/westwiseAI.png"
             alt="Mask R-CNN Project"
             width={1200}
             height={800}
@@ -44,24 +44,21 @@ export default function FeaturedProject() {
           </span>
 
           <h3 className="mt-6 text-4xl font-black">
-            Mask R-CNN From Scratch
+            WasteWiseAI
           </h3>
 
           <p className="mt-6 leading-8 text-zinc-400">
-            Built a complete Mask R-CNN architecture from scratch using
-            TensorFlow and Keras, including ResNet-50, Feature Pyramid
-            Network (FPN), Region Proposal Network (RPN), ROI Align,
-            Detection Head, and Mask Head for instance segmentation.
+            Engineered a real-time, AI-driven municipal waste intelligence platform integrating IoT telemetry, predictive overflow analytics, risk-based prioritization, geospatial fleet intelligence, dynamic multi-stop route optimization, and scenario-based operational simulation to transform fixed-schedule collection into a demand-driven system.
           </p>
 
           {/* Tech Stack */}
           <div className="mt-8 flex flex-wrap gap-3">
             {[
               "Python",
-              "TensorFlow",
-              "Keras",
-              "OpenCV",
-              "NumPy",
+              "AI/ML",
+              "IoT",
+              "Geospatial Analytics",
+              "TypeScript",
             ].map((tech) => (
               <span
                 key={tech}
@@ -76,7 +73,7 @@ export default function FeaturedProject() {
           <div className="mt-10 flex flex-wrap gap-4">
 
             <a
-              href="#"
+              href="https://wastewise-ai-null.vercel.app/"
               className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-violet-600 to-fuchsia-600 px-6 py-3 font-semibold transition hover:scale-105"
             >
               <ArrowUpRight size={18} />
@@ -84,11 +81,11 @@ export default function FeaturedProject() {
             </a>
 
             <a
-              href="#"
+              href="https://github.com/shiva12pra/WastewiseAI"
               className="inline-flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-6 py-3 font-semibold transition hover:border-violet-500/40"
             >
               <FolderGit2 size={18} />
-              GitHub
+              GitHub (collaborator)
             </a>
 
           </div>
