@@ -30,9 +30,10 @@ export default function Hero() {
           {/* LEFT */}
 
           <motion.div
-            initial={{ opacity: 0, x: -80 }}
+            initial={{ opacity: 0, x: 80 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
+            className="lg:order-2"
           >
 
             <span className="inline-block rounded-full border border-violet-500/30 bg-violet-500/10 px-4 py-2 text-sm">
@@ -129,10 +130,10 @@ export default function Hero() {
           {/* RIGHT */}
 
           <motion.div
-            initial={{ opacity: 0, x: 80 }}
+            initial={{ opacity: 0, x: -80 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1 }}
-            className="relative flex justify-center"
+            className="relative flex justify-center lg:order-1"
           >
 
             {/* Glow Circle */}
@@ -191,7 +192,7 @@ export default function Hero() {
               }}
             >
               <Image
-                src="/images/gptprofile.png"
+                src="/images/linkedin_profile.jpeg"
                 alt="Profile"
                 width={450}
                 height={150}
