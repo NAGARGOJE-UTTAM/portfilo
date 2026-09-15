@@ -71,8 +71,10 @@ export default function Hero() {
                 size="lg"
                 className="rounded-xl bg-gradient-to-r from-blue-600 to-violet-600"
               >
-                View Projects
-                <ArrowRight className="ml-2 h-5 w-5" />
+                <a href="#projects" className="flex items-center">
+                  View Projects
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </a>
               </Button>
 
               <Button
@@ -80,9 +82,10 @@ export default function Hero() {
                 size="lg"
                 className="rounded-xl"
               >
-                Contact Me
+                <a href="#contact">
+                  Contact Me
+                </a>
               </Button>
-
             </div>
 
             {/* Social */}
@@ -139,15 +142,15 @@ export default function Hero() {
             {/* Glow Circle */}
 
             <motion.div
-  animate={{
-    rotate: 360,
-  }}
-  transition={{
-    duration: 20,
-    repeat: Infinity,
-    ease: "linear",
-  }}
-  className="
+              animate={{
+                rotate: 360,
+              }}
+              transition={{
+                duration: 20,
+                repeat: Infinity,
+                ease: "linear",
+              }}
+              className="
     absolute
     h-[430px]
     w-[430px]
@@ -156,19 +159,19 @@ export default function Hero() {
     border-dashed
     border-violet-500/40
   "
-/>
+            />
 
             <motion.div
-  animate={{
-    scale: [1, 1.08, 1],
-    opacity: [0.3, 0.6, 0.3],
-  }}
-  transition={{
-    duration: 6,
-    repeat: Infinity,
-    ease: "easeInOut",
-  }}
-  className="
+              animate={{
+                scale: [1, 1.08, 1],
+                opacity: [0.3, 0.6, 0.3],
+              }}
+              transition={{
+                duration: 6,
+                repeat: Infinity,
+                ease: "easeInOut",
+              }}
+              className="
     absolute
     h-[500px]
     w-[500px]
@@ -179,16 +182,16 @@ export default function Hero() {
     to-cyan-400/20
     blur-3xl
   "
-/>
+            />
 
             <motion.div
               animate={{
                 y: [0, -15, 0],
               }}
               transition={{
-                duration:5,
+                duration: 5,
                 repeat: Infinity,
-                ease:"easeInOut"
+                ease: "easeInOut"
               }}
             >
               <Image
