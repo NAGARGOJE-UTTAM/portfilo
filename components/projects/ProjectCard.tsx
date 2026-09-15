@@ -55,13 +55,17 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         {/* Buttons */}
         <div className="mt-6 flex items-center gap-4">
 
-          <a
-            href={project.demo}
+          <button
+            onClick={() =>
+              alert(
+                "Live demo coming soon!\n\nThis project is currently being prepared for deployment. Please check back soon."
+              )
+            }
             className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-violet-600 to-fuchsia-600 px-4 py-2 text-sm font-semibold transition hover:scale-105"
           >
             <ArrowUpRight size={16} />
             Demo
-          </a>
+          </button>
 
           <a
             href={project.github}

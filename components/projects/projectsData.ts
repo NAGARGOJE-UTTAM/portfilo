@@ -17,7 +17,7 @@ export const projects: Project[] = [
     image: "/projects/project1.jpg",
     tech: ["Python", "TensorFlow", "Keras"],
     github: "https://github.com/NAGARGOJE-UTTAM/mask-RCNN-from-scratch",
-    demo: "#",
+    demo: "#projects",
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ export const projects: Project[] = [
     image: "/projects/project2.png",
     tech: ["Next.js", "OpenAI", "TypeScript"],
     github: "https://github.com/NAGARGOJE-UTTAM/IAREBot",
-    demo: "#",
+    demo: "#projects",
   },
   {
     id: 3,
@@ -36,8 +36,8 @@ export const projects: Project[] = [
       "Full-stack portal for managing students and faculty.",
     image: "/projects/project3.png",
     tech: ["React", "Node.js", "MongoDB"],
-    github: "#",
-    demo: "#",
+    github: "https://github.com/NAGARGOJE-UTTAM",
+    demo: "#projects",
   },
   {
     id: 4,
@@ -46,8 +46,8 @@ export const projects: Project[] = [
       "YOLO-based real-time object detection system.",
     image: "/projects/project4.jpg",
     tech: ["Python", "OpenCV", "YOLO"],
-    github: "#",
-    demo: "#",
+    github: "https://github.com/NAGARGOJE-UTTAM",
+    demo: "#projects",
   },
   {
     id: 5,
@@ -56,8 +56,8 @@ export const projects: Project[] = [
       "Modern animated portfolio built with Next.js.",
     image: "/projects/project5.jpg",
     tech: ["Next.js", "Tailwind", "Framer Motion"],
-    github: "#",
-    demo: "#",
+    github: "https://github.com/NAGARGOJE-UTTAM",
+    demo: "#projects",
   },
   // {
   //   id: 6,
@@ -66,7 +66,7 @@ export const projects: Project[] = [
   //     "Real-time weather dashboard using public APIs.",
   //   image: "/projects/project6.jpg",
   //   tech: ["React", "API", "Chart.js"],
-  //   github: "#",
+  //   github: "https://github.com/NAGARGOJE-UTTAM/NAGARGOJE-UTTAM",
   //   demo: "#",
   // },
 ];
